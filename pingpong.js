@@ -11,7 +11,7 @@ function setup(){
 function draw(){
     //aqui vou por a cor de mesa, em rgb
     background(128,0,0);
-    //chamando a funcao
+    //chamando a funcaao
     criaBolinha(xBolinha, yBolinha, tamBolinha)
 }
 
