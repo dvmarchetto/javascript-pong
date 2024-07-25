@@ -12,7 +12,8 @@ function draw(){
     //aqui vou por a cor de mesa, em rgb
     background(128,0,0);
     //chamando a funcaao
-    criaBolinha(xBolinha, yBolinha, tamBolinha)
+    criaBolinha(xBolinha, yBolinha, tamBolinha);
+    moveBolinha();
 }
 
 //funcao bolinha
