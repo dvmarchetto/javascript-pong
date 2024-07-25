@@ -20,3 +20,8 @@ function criaBolinha(xBolinha, yBolinha, tamBolinha){
     circle (xBolinha, yBolinha, tamBolinha);
 
 }
+//funcao em bolinha
+function moveBolinha(){
+    xBolinha = xvelocidadeBolinha + xBolinha;
+    yBolinha = yvelocidadeBolinha + yBolinha;
+}
