@@ -1,6 +1,6 @@
 //aqui vou criar minha bolinha
-let xBolinha = 300;
-let yBolinha = 200;
+let xBolinha = 600;
+let yBolinha = 400;
 let tamBolinha = 25;
 function setup(){
     //aqui vou criar minha mesa
@@ -25,4 +25,10 @@ function criaBolinha(xBolinha, yBolinha, tamBolinha){
 function moveBolinha(){
     xBolinha = xvelocidadeBolinha + xBolinha;
     yBolinha = yvelocidadeBolinha + yBolinha;
+}
+
+function Borda(){
+    if (xBolinha > width || xBolinha < 0 ){
+        yvelocidadeBolinha 
+    }
 }
